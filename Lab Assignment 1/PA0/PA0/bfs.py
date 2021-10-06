@@ -7,6 +7,27 @@
 # Frontier.
 #
 # YOUR COMMENTS INCLUDING CITATIONS
+############################################################
+#ALL CODE WAS CREATED USING THE GIVEN PSUEDOCODE IN THE ACTIVITY PDF
+############################################################
+
+#start of the bredth first search algo in Python:
+#https://favtutor.com/blogs/breadth-first-search-python
+
+#to begin the algorithim
+#This is graph work!!! --Traversing through nodes!
+#Searching all verticies (a point where two line segments meet (vertex)) -https://www.mathsisfun.com/geometry/vertices-faces-edges.html
+#Use Dictionaries and lists
+# TRAVERSE THROUGH EACH VERTEX/VERTICES BY TWO PARTS.. VISTITED AND NOT VISITED:
+#Start by putting any one of the graph’s vertices at the back of the queue.
+# Now take the front item of the queue and add it to the visited list.
+# Create a list of that vertex's adjacent nodes. Add those which are not within the visited list to the rear of the queue.
+# Keep continuing steps two and three till the queue is empty.
+
+#we need to create a queue to represent the list: https://www.geeksforgeeks.org/queue-in-python/
+
+
+
 #
 # LaFrance Daniels III - 9/23/21
 #
@@ -74,34 +95,3 @@ def BFS(problem, repeat_check=False):
 
 
 
-#start of the bredth first search algo in Python:
-#https://favtutor.com/blogs/breadth-first-search-python
-
-#to begin the algorithim
-#This is graph work!!! --Traversing through nodes!
-#Searching all verticies (a point where two line segments meet (vertex)) -https://www.mathsisfun.com/geometry/vertices-faces-edges.html
-#Use Dictionaries and lists
-# TRAVERSE THROUGH EACH VERTEX/VERTICES BY TWO PARTS.. VISTITED AND NOT VISITED:
-#Start by putting any one of the graph’s vertices at the back of the queue.
-# Now take the front item of the queue and add it to the visited list.
-# Create a list of that vertex's adjacent nodes. Add those which are not within the visited list to the rear of the queue.
-# Keep continuing steps two and three till the queue is empty.
-
-
-#should we begin by taking the first vertex within the list/graph ???
-
-#we need to create a queue to represent the list: https://www.geeksforgeeks.org/queue-in-python/
-
-#Data to be used will probably be used -- or we can use our own list:
-
-#creation of the queue:
-
-#treeCheck = [] #to take away a checked vertex... checking the tree
-#visitedNodes = [] # a list of visited nodes 
-
-#def bfs(visitedNodes, treeCheck, Node): #a function to represent the actual searches...
-#want to pop nodes into the list of visited nodes 
-
-
-
-#Now we need to create our queue and set an item to the back of the queue or location 0
