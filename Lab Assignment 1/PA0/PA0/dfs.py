@@ -1,6 +1,7 @@
 #
 # dfs.py
 #
+#
 # This file provides a function implementing depth-first search for a
 # route-finding problem. Various search utilities from "route.py" are
 # used in this function, including the classes RouteProblem, Node, and
